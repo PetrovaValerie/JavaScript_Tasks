@@ -3,7 +3,7 @@
 <!-- DESCRIPTION -->
 ## Description
 Tasks are separated by certain category.
-The repository is for learning JS purposes only.
+The repository is for collecting JavaScript tasks purposes only.
 ![Screenshot][js]
 
 [js]: prtscr/js.png
