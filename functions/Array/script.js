@@ -1,21 +1,4 @@
-//**************************ARRAYS
-// Methods:
-// push / pop
-// shift / unshift
-// splice
-// slice
-// concat
-// forEach
-// indexOf / lastIndexOf / includes
-// find / findIndex
-// filter
-// map
-// sort
-// reverse
-// split / join
-// reduce / reduceRight
-// Array/isArray
-
+//                     Задачи по JavaScript
 
 // Task 1
 //Выведите в консоль последний эл-т массива
@@ -56,6 +39,7 @@ const cats = ['Gachito', 'Tom', 'Batman'];
 for (let i = 0; i < cats.length; i++) {
     console.log(cats[i]);
 }
+
 // 2 var (for of)
 for (let catsNickname of cats) {
     console.log(catsNickname);
@@ -68,9 +52,17 @@ const evenNumbers = [2, 4, 6, 8, 10];
 const oddNumbers = [1, 3, 5, 7, 9];
 
 const allNumbers = [...evenNumbers, ...oddNumbers]
-                    .sort((a,b) => a-b);
+    .sort((a,b) => a-b);
 
 console.log(allNumbers.indexOf(8));
+
+
+
+// Task5 (a)
+// Даны два массива чисел.
+// Создайте новый массив, который будет содержать элементы из первого и второго массива в определенном порядке.
+//     [1, 2, 3], [4, 5, 6]. На выходе [1, 4, 2, 5, 3, 6]
+
 
 // Task 6
 // Наш бинарный массив неполный, в нем явно не хватает единиц.
